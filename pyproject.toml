@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "textprep"
+version = "0.0.1"
+description = "Text Preprocessing - NLP package for cleaning text"
+authors = ["Julian Kortendieck"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/juliandnl/textprep"
+repository = "https://github.com/juliandnl/textprep"
+keywords = ["text preprocessing","text cleaning", "clean text", "NLP","tidy text"]
+
+classifiers=[
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Operating System :: OS Independent",
+    ]
+
+[tool.poetry.dependencies]
+python = "^3.3"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
